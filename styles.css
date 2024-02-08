@@ -1,0 +1,11 @@
+#header{
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #7BB2D9;
+    text-align: center;
+}
+#footer{
+    height: 30px;
+    background-color: purple;
+}
