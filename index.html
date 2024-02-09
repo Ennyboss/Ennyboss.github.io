@@ -3,97 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-<style>
-        #header {
-            height: 50px;
-            padding: 10px;
-            margin: 20px;
-            background-color: #7BB2D9;
-            display: flex;
-            align-items: center;
-            justify-content: center; 
-        }
-
-        #about {
-            text-align: center;
-            margin-top: 20px; /* Adjust the top margin as needed */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .photo {
-            width: 250px;
-            border: 2px solid black;
-            margin-right: 10px;
-        }
-
-        .description {
-            font-family: Times New Roman;
-            font-size: 18px;
-            text-align: left;
-        }
-
-        .description p {
-            margin-bottom: 10px; /* Adjust the bottom margin as needed */
-        }
-
-        .description a {
-            color: #0077cc; /* Change to your desired link color */
-            text-decoration: none;
-            margin:10px; /* Adjust the horizontal margin as needed */
-        }
-        
-        #intro {
-                background-color: #B5BEC6; /* Background color for the intro div */
-                padding: 20px;
-                text-align: center;
-                margin-top: 20px;
-                font-family: Trebuchet MS;
-                font-size: 24px;
-                }
-        
-        #middle {
-                text-align: center;
-                margin-top: 20px;
-                }
-
-        #work-samples {
-            display: flex;
-            justify-content: space-around;
-            margin: 20px;
-            font-family: "Your Chosen Font", sans-serif;
-        }
-
-        .work-sample {
-            text-align: center;
-        }
-
-        .work-sample img {
-            width: 300px;
-            border: 2px solid black;
-            margin-bottom: 10px;
-            vertical-align: middle;
-        }
-
-        .work-sample ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        #footer{
-                height: 30px;
-                background-color: black;
-                padding: 10px;
-                margin-top: 20px;
-                text-align: center;
-                position: fixed;
-                bottom: 0;
-                width: 100%;
-                color: #1282A2;
-        }
-</style>
+    <title>Eniola - Web Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="header">
@@ -102,15 +13,15 @@
     <div id="about">
         <img src="img/Mypic.jpg" class="photo"  alt="Eniola">
         <p class="description">
-            I'm a graduate student at Tuskegee University studying Environmental Sciences.
+            I'm a graduate student in the Environmental Sciences Program at Tuskegee University.
             <br><br>
-            My research lies in utilizing data-science techniques to solve Agricultural and Environmental Problems .
+            My research lies in utilizing data-science techniques to solve Agricultural and Environmental Problems.
             <br><br>
-            Check out some of my projects on <a href="https://github.com/Ennyboss" target="_blank">Github</a>
+            Check out some of my projects on<a href="https://github.com/Ennyboss" target="_blank">Github</a>
             <br><br>
-            Connect with me on <a href="https://www.linkedin.com/in/eniola-olakanmi/" target="_blank">LinkedIn</a>
+            Connect with me on<a href="https://www.linkedin.com/in/eniola-olakanmi/" target="_blank">LinkedIn</a>
             <br><br>
-            Contact me: <a href="mailto:eolakanmi6097@tuskegee.edu">Email</a>
+            Contact me:<a href="mailto:eolakanmi6097@tuskegee.edu">Email</a>
         </p>
     </div>
     <div id="intro">
@@ -121,28 +32,34 @@
             <div class="work-sample">
                 <img src="img/Map 2.gif" alt="My Work Sample 1">
                 <ul>
-                    <li>Spatial Analysis for Surface Modelling</li>
-                    <li>The goal of this project is to interpolate a surface of earthquake intensity
-                        resulting from the magnitude 9.0 earthquake that struck a region close to 
-                        Japan's coast on March 11, 2011, utilizing interpolation techniques.
-
-                    </li>
+                    <h3>Spatial Analysis for Surface Modelling</h3>
+                    <div class="project-description">
+                        <li>Project goal: To interpolate a surface of earthquake intensity</li>
+                        <li>Event: Magnitude 9.0 earthquake near Japan's coast</li>
+                        <li>Objective: Utilize interpolation technique</li>  
+                    </div>
                 </ul>
             </div>
             <div class="work-sample">
                 <img src="img/machine.png" alt="My Work Sample 2">
                 <ul>
-                    <li>Data Mining for labor negotiations in Canadian Industry</li>
-                    <li>The study endeavors to achieve accurate classification of instances by using the dataset attributes,
-                        ultimately striving for a high-performing classifier that ensures a balanced classification of precision, recall, and accuracy. 
-                        The google colab. python environment was used for this project.</li>
+                    <h3>Data Mining for Labor Negotiations in Canadian Industry</h3>
+                    <div class="project-description">
+                        <li>Project goal: To develop a high-performing classifier with balanced precision, recall and accuracy</li>
+                        <li>Method: Using dataset attribute with Google Colab Python environment</li>
+                        <li>Objective: To achieve accurate classification of instances</li>  
+                    </div>
                 </ul>
             </div>
             <div class="work-sample">
-                <img src="placeholder3.jpg" alt="My Work Sample 3">
+                <img src="img/Map 3.gif" alt="My Work Sample 3">
                 <ul>
-                    <li>Project 3</li>
-                    <li>De</li>
+                    <h3>Modeling of Water Flow Over The Landscape</h3>
+                    <div class="project-description">
+                        <li>Project goal: Create hydrologically correct elevation surface over a 7-square-kilometer area near Lake Tahoe</li>
+                        <li>Method: Utilizes Topo To Raster interpolator</li>
+                        <li>Dependency: Quality of input elevation surface crucial </li>  
+                    </div> 
                 </ul>
             </div>
         </div>
