@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+       }
+
+
+#header {
+   height: 50px;
+   padding: 10px;
+   margin: 20px;
+   background-color: #7BB2D9;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+
+#about {
+   text-align: center;
+   margin-top: 20px; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.photo {
+   width: 250px;
+   border: 2px solid black;
+   margin-right: 10px;
+}
+
+.description {
+   font-family: Times New Roman;
+   font-size: 18px;
+   text-align: left;
+}
+
+.description p {
+   margin-bottom: 10px; 
+}
+
+.description a {
+   color: #fca211; 
+   text-decoration: none;
+   margin:10px;
+}
+
+#intro {
+       background-color: #B5BEC6; 
+       padding: 20px;
+       text-align: center;
+       margin-top: 20px;
+       font-family: Trebuchet MS;
+       font-size: 24px;
+       }
+
+#middle {
+       text-align: center;
+       margin-top: 20px;
+       background-color: #7BB2D9;
+       }
+
+#work-samples {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin: 20px;
+   font-family: sans-serif;
+}
+
+.work-sample {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.work-sample img {
+   width: 300px;
+   border: 2px solid black;
+   margin-bottom: 10px;
+}
+
+.work-sample ul {
+   list-style: none;
+   padding: 0;
+}
+
+.work-sample .project-description {
+   text-align: left;
+}
+
+.work-sample h3 {
+   font-size: 20px; 
+   margin-bottom: 5px; 
+}
+.work-sample .project-description li {
+   list-style: disc; 
+   padding-left: 3px;
+}
+
+#footer{
+       height: 30px;
+       background-color: black;
+       padding: 10px;
+       margin-top: 20px;
+       text-align: center;
+       position: fixed;
+       bottom: 0;
+       width: 100%;
+       color: #FCA311;
+}
+
+body {
+   padding-bottom: 30px; 
+}
